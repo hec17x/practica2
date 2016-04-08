@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LOGIN-OPEN TRAVELER</title>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/house.css" />
+<link type="text/css" rel="stylesheet" href="css/apple.css" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<script type="text/javascript" src="login.js"></script>
+    <script type="text/javascript" src="bigbang.js"></script>
+</head>
+
+<body>
+<header>
+
+<nav id="hamburguesa">
+
+<div class="control-menu-ap">
+		<a href="#hamburguesa" class="abrir"><i class="icons8-menu"></i></a>
+		<a href="#" class="cerrar"><i class="icons8-delete"></i></a>
+	</div>
+	<img id="logo-movil"  alt="" src="images/logo1.png">
+  
+<ul class="menu-nav">
+		<li><a href="index.html"><i class="icon-home-circled"></i>INICIO</a> </li>
+		<li><a href="buscar_viajes.html"><i class="icon-search"></i>BUSCAR VIAJES</a></li> 
+		<li><a href="crear_viaje.html"><i class="icon-flight"></i>CREAR VIAJE</a></li>
+		<li><a href="about.html"><i class="icon-adult"></i>PERFIL</a></li>
+		<li><a href="registro.html"><i class="icon-logout-2"></i>LOGOUT</a></li>
+		<li><a href="login.html"><i class="icon-login"></i>LOGIN</a></li>
+		<li><a href="registro.html"><i class="icon-logout"></i>REGISTRO</a></li>
+	</ul>
+</nav>
+
+<nav id="ed-escritorio">
+<img id="logo-esctritorio"  alt="" src="images/logo.png" >
+
+	<ul class="menu-principal">
+		<li><a href="index.html"><i class="icon-home-circled"></i>INICIO</a> </li>
+		<li><a href="buscar_viajes.html"><i class="icon-search"></i>BUSCAR VIAJES</a></li> 
+		<li><a href="crear_viaje.html"><i class="icon-flight"></i>CREAR VIAJE</a></li>
+		<li><a href="about.html"><i class="icon-adult"></i>PERFIL</a></li>
+		<li><a href="registro.html"><i class="icon-logout-2"></i>LOGOUT</a></li>
+		<li><a href="login.html"><i class="icon-login"></i>LOGIN</a></li>
+		<li><a href="registro.html"><i class="icon-logout"></i>REGISTRO</a></li>
+	</ul>
+</nav>
+
+
+</header>
+
+
+<section id="busqueda">
+<h1>Accede con tu cuenta</h1>
+	<form action='#'>
+
+	    <!--Usuario:-->
+		<input type="text" name="user" class="usuario" placeholder = "Usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{1,20}$"  autofocus required title="Introduce un Usuario"> 
+		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
+		<!--Contraseña:-->
+		<input type="password" class="pass" name="pass" placeholder = "Contraseña" required title="Introduce una Contraseña">
+		<!--<input type="submit" value="Acceder">
+		<br>
+		<br>-->
+		<button class="btn_viaje" type="submit" >Iniciar Sesión</button>
+
+	</form>
+</section>
+
+
+
+<footer>
+
+  <p><i class="icon-copyright"></i>OpenTraveler Group S.A.   2016   Contacto: <a href="mailto:serviciodeinformatica@opentraveler.com">serviciodeinformatica@opentraveler.com</a> Mas información <a href="about.html"><b>Aquí</b></a></p>
+</footer>
+
+</body>
+
+</html>

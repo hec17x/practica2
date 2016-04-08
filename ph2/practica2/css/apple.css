@@ -1,0 +1,44 @@
+/*
+  Icon Font: Downloaded
+*/
+
+@font-face {
+  font-family: "Downloaded";
+  src: url("../font/Downloaded_e40b8d6ed2000c9a33f71323d264f302.eot");
+  src: url("../font/Downloaded_e40b8d6ed2000c9a33f71323d264f302.eot?#iefix") format("embedded-opentype"),
+       url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAARcAA0AAAAABlwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEQAAAABoAAAAcd0cwxE9TLzIAAAGYAAAARwAAAGBAlVznY21hcAAAAfQAAABCAAABQgAP9KxjdnQgAAACOAAAAAQAAAAEABEBRGdhc3AAAAQ4AAAACAAAAAj//wADZ2x5ZgAAAkgAAACZAAAAvLCwHRZoZWFkAAABMAAAACwAAAA2BtCgVWhoZWEAAAFcAAAAGwAAACQDrwIFaG10eAAAAeAAAAASAAAAEgYAAFFsb2NhAAACPAAAAAwAAAAMAG4Asm1heHAAAAF4AAAAHwAAACAASgA9bmFtZQAAAuQAAAErAAACHyR/yi9wb3N0AAAEEAAAACgAAAA8nBc+UnjaY2BkYGAAYvmGVfnx/DZfGbiZGEDg0k39N8g0EwNjA5DiYABLAwAdVQmAeNpjYGRgYGxgYGDQY2IAASDJyIAKWAAVMgC6AHjaY2BkYGBgZeBhYGYAASYgZmQAiTkw6IEEAAUXAIgAeNpjYGFiYJzAwMrAwOjDmMbAwOAOpb8ySDK0MDAwMbByMsCBAILJEJDmmsLQ8JHhIyPjgf8HGPQYG8DCjEhKFBgYAf+DCxEAAgAAEQAAAAACAAAAAgAAQAAAAAB42mNgYGBmgGAZBkYGELAB8hjBfBYGBSDNAoRA/kfG//+BJMP///zMUJUMjGwMMCYDIxOQYGJABYwMwx4AAD1rBq0AAAARAUQAAAAqACoAKgBEAF542mNgYhBkYGCYyRjKwMzAzqC3kZFB32YTOwvDW6ONbKx3bDYxMwGZDBuZQcKsIOFN7GyMf2w2MYLEjQWNBdWNBZUFO8rT0hhD/60WZDQGmsbI4AAkDjA2MHAzMAiLm4uzi7Ors6ubq/tv3MgPQ4wNSBwGoO0MDDJMDIwpYHcA9QkqisIhE8M/BhhmTBFtFWkVBSoHAKUVKXkAAAB42o2PMWvDMBCFnxInpRlKKZkKAS2FBGIjmxBKlg4JHjq1GbIbR3UMxgq2Q8jasT+mP6e/pkOfFdEuhVZw3Ke7p7snAFd4h8D53GLuWGCAzHEHF3h13MUdPhx7GIgbxz1ciwfHfdZfqBTeJW8z+6plgSGeHXe4t3LcxSPeHHvUfDruQYqR4z6G4glLGOxx4suc7nZoIDFGiglzBIWQ/qfknDWDEjXugaXZn6o82zVynE5kpML5VOapKWv2VpQdKSyYE2yhGViZY1mYZKvJa5YyHChIuBVrnR2KhBDb+Y3NFRXaOgjoQWLB+G3wuTODT6X/7RexKZvYVJmWUaDkQv6s52XmR35r+R9WNyxV/HJurUmObxcENre2sNFVnZtSKhUGSin598wvPw9UWAB42mNgYgCD/wcYJIEUIwM6YAWLMjEyMTKzl+ZluhkaGEBpQwCG2gZAAAAAAf//AAJ42mNgYGBkAIKLUy68BtGXbuq/gdEAXioIrgAA),
+       url("../font/Downloaded_e40b8d6ed2000c9a33f71323d264f302.woff") format("woff"),
+       url("../font/Downloaded_e40b8d6ed2000c9a33f71323d264f302.ttf") format("truetype"),
+       url("../font/Downloaded_e40b8d6ed2000c9a33f71323d264f302.svg#Downloaded") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Downloaded";
+    src: url("../font/Downloaded_e40b8d6ed2000c9a33f71323d264f302.svg#Downloaded") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icons8-delete:before,
+.icons8-menu:before {
+  display: inline-block;
+  font-family: "Downloaded";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icons8-delete:before { content: "\f100"; }
+.icons8-menu:before { content: "\f101"; }

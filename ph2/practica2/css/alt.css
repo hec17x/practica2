@@ -1,0 +1,476 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Merriweather+Sans);
+
+html {
+  height: 100%;
+  overflow: hidden;
+
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+h1 {
+   font-size: 250%;
+
+}
+
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+
+/**
+img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+**/
+
+.slide a:visited
+{
+  color:white;
+
+}
+
+
+.slide a:link 
+{
+  color:white;
+}
+
+
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+  background-image: url("../images/principal1.jpeg");
+   background-attachment: fixed;  
+}
+#slide1 
+{
+  background: url("../images/principal2.jpeg");
+     background-attachment: fixed; 
+     background-size: cover;
+     z-index: -1;
+}
+
+#slide1:before {
+
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+
+}
+
+#slide2 {
+
+  background-attachment: fixed;  
+  font-family: 'Merriweather Sans', sans-serif;
+
+  background: url("../images/principal3.jpeg");
+     background-attachment: fixed; 
+     background-size: cover;
+     z-index: -1;
+}
+
+#slide3:before {
+
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide4 {
+  background: #222;
+    min-height: 0%;
+    max-height: 100%;
+    font-size: 1em;
+    padding: 2%;
+    color:  white;
+}
+
+#slide4 img
+{
+  width: 30%;
+}
+
+#slide4 p
+{
+   color:  #ddd;
+}
+
+
+#logo
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  margin-top: -10%;
+}
+
+
+.material-icons.md-48 
+{ 
+  font-size: 48px; 
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+
+}
+
+
+
+
+.material-icons.md-48:hover
+{ 
+  font-size: 55px; 
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+
+}
+
+  nav{
+    width: 100%;
+    text-align: center;
+    color:white;
+  }
+
+  nav li a{
+    font-size: 1em;
+    padding: 3% 3% 0% 0%;
+    display: inline-block;
+
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function:ease-out;
+    transition-delay: 20ms;
+  }
+
+  nav a:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+
+  nav a:hover:after{
+    width: 100%;
+    background: #E0E0E0;
+  }
+
+  .menu-nav
+  {
+    font-size: 0.9em;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+  } 
+
+  .menu-nav i
+  {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: inline;
+  }
+  
+  .menu-nav li
+  {
+    display: inline; 
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .menu-nav a
+  {
+    text-decoration: none;
+    color: #E0E0E0; 
+  }
+  
+  .menu-nav a:visited
+  {
+    text-decoration: none;
+    color: #E0E0E0;   
+  }
+
+  .menu-nav a:link
+  {
+    text-decoration: none;
+    color: #E0E0E0;   
+  }
+
+  .contenedor
+  {
+    padding: 20px;
+  }
+
+  .content_viajes
+  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .content_viajes li
+  {
+    margin-top: 60px;
+  }
+  
+  .content_viajes li div
+  {
+    /*margin-left: 40px;
+   /* margin-top: -30px;*/
+   /* border: 2px solid #ddd;*/
+    background: white;
+
+  }
+
+  .content_viajes h2, p
+  {
+    padding-left: 1%;
+  }
+
+  .content_viajes li i
+  {
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background: white;
+    margin-left: 50%;
+    margin-bottom: 5%;
+  }
+
+  .comentarios li i
+  {
+
+    margin-left: -5%;
+    margin-bottom: -5%;
+
+  }
+
+ .comentarios li i:after
+  {
+    content: '';
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    background: #ddd;
+    margin-top:15px;
+    z-index: -1;
+  }
+  
+
+
+/**
+  .content_viajes li i:after
+  {
+    content: '';
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    background: #ddd;
+    margin-top:15px;
+    z-index: -1;
+  }
+  **/
+  .content_viajes:after
+  {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background: #ddd;
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    z-index: -1;
+    margin-left: 50%;
+  }
+
+  .comentarios:after
+  {
+    margin-left: 0%;
+  }
+
+ .content_viajes .avatar-frame{
+    border: 2px solid #c7b89e;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -15px;
+  }
+
+  .content_viajes span
+  {
+    margin-left: 1%;
+    position: absolute;
+  }
+   .content_viajes .fecha_coment
+  {
+     position: absolute;
+     right: 5%;
+  }
+
+  .content_viajes p
+  {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: 1.1em;
+     text-align: justify;
+  }
+
+   .content_viajes h2
+  {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    text-align: justify;
+  }
+
+   .content_viajes  .avatar-frame,.avatar-frame img{
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 30px; /* Saf3+, Chrome */
+  border-radius: 30px; /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px;  Disabled for FF1+ */
+
+  }
+
+  .content_viajes .viaje_user
+ {
+    background: none;
+    border: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 35px;
+    margin-bottom: 10px;
+ }  
+
+ .content_viajes .foto_viaje
+ {
+    display: inline-block;
+    width: 26.5em;
+    height: 21em;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -4px;
+ }
+
+.content_viajes .contenido
+{
+  width: 49%;
+    display: inline-block;
+    margin-left: 47%;
+    border: 0;
+    background: none;
+    /* margin-top: -50px; */
+    position: absolute;
+    /* text-align: right; */
+    margin-top: 10px;
+}
+
+.comentarios .re
+{
+  margin-top: 2.5%;
+  margin-left: 5%;
+}
+
+
+.content_viajes .contenido_comentario
+{
+    width: 100%;
+    border: 0;
+    background: none;
+    margin-top: 10px;
+    padding: 2%;
+}
+ .content_viajes .contenido_comentario h2
+  {
+    margin-left: 2.5%;
+    margin-right: 5%;
+    width: 100%;
+    font-size: 1.1em;
+     text-align: justify;
+  }
+
+ .content_viajes .contenido_comentario p
+  {
+    margin-left: 2.5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: 1.1em;
+     text-align: justify;
+  }
+
