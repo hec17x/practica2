@@ -54,7 +54,7 @@
 
 <section id="busqueda">
 <h1>Accede con tu cuenta</h1>
-	<form action='#'>
+	<form action='#' method="post" onsubmit="event.preventDefault(); return sendLogin();" accept-charset="utf-8">
 
 	    <!--Usuario:-->
 		<input type="text" name="user" class="usuario" placeholder = "Usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{1,20}$"  autofocus required title="Introduce un Usuario"> 
@@ -64,7 +64,7 @@
 		<!--<input type="submit" value="Acceder">
 		<br>
 		<br>-->
-		<button class="btn_viaje" type="submit" >Iniciar Sesión</button>
+		<button class="btn_viaje" type="submit">Iniciar Sesión</button>
 
 	</form>
 </section>
